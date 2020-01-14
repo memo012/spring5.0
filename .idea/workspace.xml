@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3405d1a4-1756-4f9b-a2ff-be0b8398c49b" name="Default Changelist" comment="" />
+    <list default="true" id="3405d1a4-1756-4f9b-a2ff-be0b8398c49b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot5.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminsys/soundcode/AnnotationCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminsys/soundcode/config/OwnConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminsys/soundcode/context/MyApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminsys/soundcode/entity/MemberEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminsys/soundcode/entity/SchoolEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adminsys/soundcode/processor/MyBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5.0.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring5.0.kotlin_module" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +30,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\Administrator\ubantu\local_maven" />
-        <option name="mavenHome" value="$USER_HOME$/ubantu/apache-maven-3.6.2" />
-        <option name="userSettingsFile" value="C:\Users\Administrator\ubantu\apache-maven-3.6.2\conf\settings.xml" />
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="/usr/local/maven" />
+        <option name="userSettingsFile" value="/usr/local/maven/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -32,10 +48,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1WGoEhaO5p7JoNQDW1q68oPDi07" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,13 +71,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnnotationApp">
+  <component name="RunManager" selected="Application.AnnotationCode">
     <configuration name="AnnotationApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.adminsys.annotation.AnnotationApp" />
       <module name="spring5.0" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.adminsys.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adminsys.soundcode.AnnotationCode" />
+      <module name="spring5.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adminsys.soundcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnnotationCode" />
         <item itemvalue="Application.AnnotationApp" />
         <item itemvalue="Application.AppApplication" />
       </list>
@@ -96,10 +132,81 @@
       <workItem from="1578785189581" duration="1276000" />
       <workItem from="1578791216487" duration="7424000" />
       <workItem from="1578881374922" duration="5101000" />
+      <workItem from="1578973266482" duration="15389000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>523</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>548</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>841</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>734</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>757</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
+          <line>242</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
+          <line>308</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>581</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>582</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
